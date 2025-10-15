@@ -1,1 +1,17 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="ml_on_event_start" id="Xl9|7v0=^D?ZUZ@0qj,A" x="0" y="0"><field name="event">ml.event.Rest</field><statement name="HANDLER"><block type="basic_show_icon" id=":^d`J)+kp9;ir?M+lP.y"><field name="i">IconNames.Square</field></block></statement></block><block type="ml_on_event_start" id="IZQDwtUTS.m{VG6}YYE|" x="0" y="180"><field name="event">ml.event.Clap</field><statement name="HANDLER"><block type="basic_show_icon" id=";-?%43B{I1t;*OmtSd^;"><field name="i">IconNames.Cow</field></block></statement></block><block type="ml_on_event_start" id="yL1e?w6UH^8d]-yU-i]a" x="0" y="360"><field name="event">ml.event.Wave</field><statement name="HANDLER"><block type="basic_show_icon" id="Qp?m]}DDK=j*OJyB0scU"><field name="i">IconNames.Chessboard</field></block></statement></block><block type="ml_on_event_start" id="/PVVk9_WaCYU5mG},@ln" x="0" y="540"><field name="event">ml.event.Dance</field><statement name="HANDLER"><block type="basic_show_icon" id="An0LOr{rDQ.FJESQ2,7i"><field name="i">IconNames.No</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><comment id="y.yt)p:-cW@tG|cggy`;" x="356.2937582247637" y="105.32317847190109" w="399.7969970703125" h="619.9214248657227">This is a comment:
+
+This Micro:bit code uses AI model to detect movement and perform an action.
+
+The actions that we have here are:
+
+1. Clap
+2. Wave
+3. Dance
+4. Rest
+5. Unknown Event - The Micro:bit is not aware of this action. You haven't taught it.
+
+Our goal is to record how many times we do a certain action.
+
+We are going to save the action in variables
+
+</comment><block type="ml_on_event_start" id="Xl9|7v0=^D?ZUZ@0qj,A" x="0" y="0"><field name="event">ml.event.Rest</field><statement name="HANDLER"><block type="basic_show_icon" id=":^d`J)+kp9;ir?M+lP.y"><field name="i">IconNames.Square</field></block></statement></block><block type="ml_on_event_start" id="IZQDwtUTS.m{VG6}YYE|" x="896" y="217"><field name="event">ml.event.Clap</field><statement name="HANDLER"><block type="basic_show_icon" id=";-?%43B{I1t;*OmtSd^;"><field name="i">IconNames.Cow</field></block></statement></block><block type="ml_on_event_start" id="yL1e?w6UH^8d]-yU-i]a" x="898" y="398"><field name="event">ml.event.Wave</field><statement name="HANDLER"><block type="basic_show_icon" id="Qp?m]}DDK=j*OJyB0scU"><field name="i">IconNames.Chessboard</field></block></statement></block><block type="ml_on_event_start" id="/PVVk9_WaCYU5mG},@ln" x="901" y="577"><field name="event">ml.event.Dance</field><statement name="HANDLER"><block type="basic_show_icon" id="An0LOr{rDQ.FJESQ2,7i"><field name="i">IconNames.No</field></block></statement></block></xml>
